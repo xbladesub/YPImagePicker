@@ -368,7 +368,7 @@ extension YPPickerVC: YPLibraryViewDelegate {
             offset += v.safeAreaInsets.bottom
         }
         
-        v.header.bottomConstraint?.constant = enabled ? offset : 0
+        v.header._bottomConstraint?.constant = enabled ? offset : 0
         v.layoutIfNeeded()
         updateUI()
     }
