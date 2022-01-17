@@ -13,8 +13,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/freshOS/Stevia",
-            .exact("4.8.0")
+            url: "https://github.com/xbladesub/Stevia",
+            .exact("6.0.0")
         ),
         .package(
             url: "https://github.com/HHK1/PryntTrimmerView",
